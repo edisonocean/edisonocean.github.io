@@ -1,0 +1,25 @@
+
+.header {
+
+  text-align: center;
+  display: block;
+
+    }
+
+    .post {
+
+      float: left;
+      width: 50%;
+
+
+    }
+    .photo{
+
+      position: right;
+      width: 50%;
+    }
+
+    .about {
+      position: right;
+      width: -50;
+    }
