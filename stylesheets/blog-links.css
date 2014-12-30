@@ -9,6 +9,10 @@ margin: auto;
 height: 1650px;
 
 }
+#pbm{
+  position: relative;
+left: 40px;
+}
 
 #box-1 {
   position: relative;
