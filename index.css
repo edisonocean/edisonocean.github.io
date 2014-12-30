@@ -6,7 +6,7 @@ body{
 .background{
 background:blue;
 margin: auto;
-height: 750px;
+height: 1450px;
 
 }
 
@@ -29,7 +29,7 @@ color: white;
   top: 75px;
   background-color: green;
     width: 1000px;
-    height:500px;
+    height:1200px;
     border: 5px solid black;
     margin-right: auto;
     margin-left: auto;
@@ -72,7 +72,7 @@ color: white;
 
 .footer {
   position: absolute;
-  top: 800px;
+  top: 1500px;
 left:auto;
   background-color: orange;
     width: 1420px;
