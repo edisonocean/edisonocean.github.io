@@ -3,10 +3,12 @@ body {
     background-image: url("http://www.amazonwalls.com/wp-content/uploads/2013/07/Free-Background-Images-Css.jpg");
     background: black;
 }
+
+
 .background{
 background:blue;
 margin: auto;
-height: 1050px;
+height: 2200px;
 
 }
 
