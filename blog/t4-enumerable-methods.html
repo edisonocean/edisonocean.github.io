@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Enumerable "group_by"</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+</head>
+<body>
+  <div class="background">
+
+<div id="box-1">
+EDISON OCEAN REEF'S DBC BLOG
+</div>
+
+
+<div id="box-2"><img src="http://images.clipartpanda.com/networking-clipart-network-clipart-black-orange-men-network-hi4.png" alt="HTML5 Icon" style="width:500px;height:500px">
+</div>
+
+
+
+<div id="post">
+
+  <h1>Phase-0</h1>
+  <h2>What is the Enumerable "group_by"</h2>
+  <h4>Mon, January 19th, 2015</h4>
+
+
+
+    <p>
+      Let's first start with explaining what is "Enumerable" is. Well, before it gets confusing, I'll put it in simple terms. "Enumerable" is a collections of methods that can interact, meaning "included with", with other classes. By implementing them in the beginning of our code it allows us to only have to use them once instead of having to define them each time we want to use them again. That is in short what programmers refer to "inheritance". Since coding is like a family tree, the rich grand, grand, grand, grand, grandad code can pass down it's riches to the younger code.
+
+          </p>
+    <p>
+        "Enumerable" has in it's toolbox the method #each. It can be used with arrays, hashes, ranges, etc. It has the ability to go through each item in, let's say, an array and cast whatever condition was previously defined or following the method #each. By "definded" I mean, whatever action you want each item in the array (aka list) to do. Now let's move on to the method "group_by".
+    </p>
+    <p>For example:
+    <ol>
+      <li>method = [1, 2, 3, 4, 4, 4, 5, 5, 6, 7, 8]</li>
+      <li>method.each do |i| #Here we're saying: 'for every item in the array called 'method' use 'i' to represent it from now on.'</li>
+      <li> i = i + 2  #Because we're using '.each' here we're adding 2 to every number in the array.</li>
+      <li> return i #This will return the new value of each item on the list</li>
+      <li>end</li>
+    </ol>
+    <p>
+        The method "group_by" will run the condition or conditions that that come after it in the code you wrote. However, after running that code, it will return a "hash". So in the example above we can use "sort_by" like this:
+
+        <ol>
+      <li>method = [1, 2, 3, 4, 4, 4, 5, 5, 6, 7, 8]</li>
+      <li>method.group_by{|number| number > 3}</li>
+      <li>end</li>
+        </ol>
+
+        This code will return an array of the numbers greater than '3' from the array called 'method'. Like this: {4, 4, 4, 5, 5, 6, 7, 8}
+
+    </p>
+
+      <p>
+      <h1>Blog Posts</h1>
+        <ul>
+        <li><a href="/blog/c1-chefs-kitchen.html">Chef's Kitchen</a></li>
+        <li><a href="/blog/t1-git-blog.html">Oyster and Hot Sauce</a></li>
+        <li><a href="/blog/t2-css-design.html">P.B.and M.</a></li>
+        <li><a href="/blog/t3-arrays-hashes.html">Hashes and Arrays</a></li>
+        <li><a href="/blog/c3_thinking-style.html">Thinking Style</a></li>
+
+
+        </ul>
+
+       <p> <a href="/index.html"><h3>home</h3></a></p>
+
+      </p>
+
+   </div>
+   </div>
+   </body>
+</html>
