@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>How Ruby and JavaScript Differ</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog-stylesheet.css">
+</head>
+<body>
+  <div class="background">
+
+<div id="box-1">
+EDISON OCEAN REEF'S DBC BLOG
+</div>
+
+
+<div id="box-2"><img src="http://images.clipartpanda.com/networking-clipart-network-clipart-black-orange-men-network-hi4.png" alt="HTML5 Icon" style="width:500px;height:500px">
+</div>
+
+
+
+<div id="post">
+
+  <h1>Phase-0</h1>
+  <h2>How does Ruby and JavaScript differ?</h2>
+  <h4>Sunday, February 8th, 2015</h4>
+
+
+- Ruby classes vs. JavaScript constructor functions
+- Ruby documentation vs. JavaScript documentation
+- Looping in Ruby vs. Looping in JavaScript
+
+
+    <p>-Welcome back!!!! On this episode, I will be discussing the some of the similarities and differences between the Ruby and JavaScript languages. Here are some of the topics I'll be covering:
+        <ul>
+            <li>- Ruby Hashes vs. JavaScript Objects</li>
+            <li>- Ruby classes vs. JavaScript constructor functions</li>
+        </ul>
+     </p>
+
+     <p>
+      <h2>- Ruby Hashes vs. JavaScript Objects</h2>
+    In the beginning of January, we took a look at the differences between "hashes" and "arrays". I gave the following example:
+              <dl>
+                <dt> hash = {</dt>
+                <dt>key1 => value1,</dt>
+                <dt> key2 => value2,</dt>
+                <dt>key3 => value3</dt>
+                <dt>  }</dt>
+              </dl>
+               <dl>
+                <dt>puts hash["key1"]</dt>
+                <dt>puts hash["key2"]</dt>
+                <dt>puts hash["key3"]</dt>
+              </dl>
+
+       A "hash" is, essentially, a list of items. Each item in the list has a corresponding value to it. A way to look at it in non-computer related terms is by thinking of it like a shopping list of items which has the name of the item and the quantity needed. for example: eggs => a dozen, socks => 3 pair, coffee => 1lbs, milk => 2 gallons etc. As you know, each item is referred to as an "item" on the list and the quantity you know as the "quantity". In the ruby language, if that shopping list was a hash, each "item" would be known as a "key" and each "quantity" of each item would be known as a "value" of each "key". The handy thing about this type of list (a hash) is that when used in the ruby language, both the keys and values can be used in many different ways.
+         </p>
+         <p>In JavaScript, "Objects" have a somewhat similar nature. In that language, an object, much like the "keys" in a hash, has a value. There are differences tho. According to the W3, declaring strings, numbers, and boolean objects has an unwanted reaction. Apparently, the processing speed gets diminished when attempting to declare those examples. Additionally, whereas in Ruby hashes are essentially a collection of instance variables that have limited access, in JavaScript there is no need for such restrictions. Here's an example of a JavaScript object:
+
+
+
+                        <dl>
+                            <dt>var person = {</dt>
+                            <dt>firstName:"John",</dt>
+                            <dt>lastName:"Doe",</dt>
+                            <dt>age:50,</dt>
+                            <dt>eyeColor:"blue"</dt>
+                            <dt>};</dt>
+                        </dl>
+        </p>
+              <p>
+                <h2>- Ruby classes vs. JavaScript constructor functions</h2>
+                A Ruby Class, is a first-class object. The fact is that Ruby and JavaScript are both object oriented languages. This means that they create objects and use them as tools to run programs that are aimed at one or more functions. You can think of an object, in reference to a car, as the different parts of a car that allow you to drive it and control its movements. So in that sense, lets say that we have a ruby class called Car. This would be declared at the top of the program that you create. Like so:
+              </p>
+
+                <p>
+                  <ul>
+                    <li>class Car</li>
+                    <li>def initialize(wheels, gas)</li>
+                    <li>@wheels = wheels</li>
+                    <li>@gas = gas</li>
+                    <li>end</li>
+                  </u>
+                </p>
+                <p>
+                  In this example the class 'class Car' has some attributes that you probably recognize. Though, this isn't exactly what the full program might be, it does cover the main principles that we're looking to explain. These attributes can be used later in the continued portion of the program in order to implement and access functions. So let's compare this ruby class to what it might be in JavaScript.
+                </p>
+
+
+                  <p>
+                   <ul>
+                      <li>function car(wheels, gas) {</li>
+                      <li>this.wheels = wheels;</li>
+                      <li>this.gas = gas; </li>
+                      <li>@gas = gas</li>
+                      <li>}</li>
+                   </u>
+                 </p>
+
+                <p>
+                  The differences are that in Ruby and JavaScript, the class "class Car" and its attributes are accessed in a slightly different manner. Obviously the syntax is going to be different. However, ultimately they can both achieve a similar level of practicality. For each of them, we can distribute values, and create an almost endless list of instances of them. An instance, is another way of saying " a running example of it's capabilities".
+                </p>
+
+
+
+
+
+          <p>
+            <h1>Blog Posts</h1>
+              <ul>
+              <li><a href="/blog/c1-chefs-kitchen.html">Chef's Kitchen</a></li>
+              <li><a href="/blog/t1-git-blog.html">Oyster and Hot Sauce</a></li>
+              <li><a href="/blog/t2-css-design.html">P.B.and M.</a></li>
+              <li><a href="/blog/t3-arrays-hashes.html">Hashes and Arrays</a></li>
+              <li><a href="/blog/c3_thinking-style.html">Thinking Style</a></li>
+              <li><a href="/blog/t4-enumerable-methods.html">Enumerable</a></li>
+              <li><a href="/blog/c4-tech-issues.html">Tech Issues</a></li>
+              <li><a href="/blog/t5-ruby-classes.html">Ruby Classes</a></li>
+              <li><a href="/blog/c5-feedback.html">Feedback</a></li>
+              <li><a href="/blog/t6-oop-concepts.html">Concepts</a></li>
+              <li><a href="/blog/c6-stereotype-threat.html">Sterotype Threat</a></li>
+   <li><a href="/blog/c7-values.html">Values</a></li>
+
+            </ul>
+         </p>
+      <p>
+        <a href="/index.html"><h3>home</h3></a>
+     </p>
+
+              </div>
+         </div>
+   </body>
+</html>
