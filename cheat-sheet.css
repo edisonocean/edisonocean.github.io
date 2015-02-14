@@ -1,0 +1,48 @@
+
+.background{
+background:white;
+margin: auto;
+height: auto;
+}
+
+.date {
+  position: absolute;
+  background-color: white;
+    right:105px;
+    width: 200px;
+    height: 40px;
+    border: 5px solid black;
+    margin: 5px;
+    text-align: center;
+font-size: 25px;
+font-family: "Times New Roman", Georgia, Serif;
+color: white;
+
+}
+
+.title {
+  position: absolute;
+  background-color: white;
+    right:400px;
+    width: 600px;
+    height: 40px;
+    border: 5px solid black;
+    margin: 5px;
+    text-align: center;
+font-size: 25px;
+font-family: "Times New Roman", Georgia, Serif;
+color: white;
+}
+
+.paragraph {
+  position: relative;
+  top: 75px;
+  background-color: green;
+    width: 1200px;
+    height:600px;
+    border: 5px solid black;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
