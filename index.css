@@ -73,7 +73,7 @@ color: white;
 
 .footer {
   position: absolute;
-  top: 1500px;
+  top: 1000px;
 left:auto;
   background-color: orange;
     width: 1420px;
@@ -86,7 +86,7 @@ left:auto;
 .projects {
   position: absolute;
   top: 0px;
-  right: auto;
+  left:0px;
   background-color: blue;
     width: 200px;
     height: 50px;
@@ -101,7 +101,7 @@ left:auto;
 .about {
   position: absolute;
   top: 0px;
-  left: 570px;
+  left: 380px;
   background-color: blue;
     width: 200px;
     height: 50px;
@@ -114,6 +114,21 @@ left:auto;
     box-shadow: 10px 10px 5px black;
 }
 .contacts {
+  position: absolute;
+  top: 0px;
+  right: 380px;
+  background-color: blue;
+    width: 200px;
+    height: 50px;
+    border: 5px solid black;
+    margin: 25px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Times New Roman", Georgia, Serif;
+    color: white;
+    box-shadow: 10px 10px 5px black;
+}
+.cheat_sheet {
   position: absolute;
   top: 0px;
   right: 0px;
