@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Ruby Hashes, Arrays, Strings, Integers</title>
+  <title>JavaScript Cheat Sheet</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="cheat-sheet.css">
 </head>
@@ -10,13 +10,91 @@
           <div class="background">
 
           <div class="date">
+            Saturday, Feg 14th, 2015
           </div>
           <div class="title">
+            JavaScript Cheat Sheet
           </div>
           <div class="paragraph">
-          </div>
+
+            <h3>In JavaScript, almost "everything" is an object.</h3>
+
+                <ul>
+                  <li>Booleans can be objects (or primitive data treated as objects)</li>
+                  <li>Numbers can be objects (or primitive data treated as objects)</li>
+                  <li>Strings can be objects (or primitive data treated as objects)</li>
+                  <li>Dates are always objects</li>
+                  <li>Maths are always objects</li>
+                  <li>Regular expressions are always objects</li>
+                  <li>Arrays are always objects</li>
+                  <li>Functions are always objects</li>
+                  <li>Objects are objects</li>
+                  <li>In JavaScript, all values, except primitive values, are objects.</li>
+                </ul>
+              <p>Primitive values are: strings ("John Doe"), numbers (3.14), true, false, null, and undefined.</p>
+              <h3>Objects are Variables Containing Variables</h3>
+              <p>JavaScript variables can contain single values: </p>
+
+                  <dl>
+                    <dt>var person = {</dt>
+                      <dd>firstName:"John",</dd>
+                      <dd>lastName:"Doe",</dd>
+                      <dd>age:50,</dd>
+                      <dd>eyeColor:"blue"</dd>
+                    <dt>};</dt>
+                  </dl>
+             <h3>JavaScript variables can contain single values:</h3>
+                var person = "John Doe";
+             <h3>Objects are variables too. But objects can contain many values.</h3>
+                The values are written as name : value pairs (name and value separated by a colon)
+                var person = {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+         </div>
+
+
+
           <div class="paragraph">
-          </div>
+            <h3>JavaScript Object Properties</h3>
+            <p>A JavaScript object is a collection of unordered properties.
+                  Properties can usually be changed, added, and deleted, but some are read only.
+                  The syntax for accessing the property of an object is:</p>
+                  objectName.property          // person.age
+                  objectName["property"]       // person["age"]
+                  objectName[expression]       // x = "age"; person[x]
+                  objectName[expression]       // x = "age"; person[x]
+
+                  <p>There are two different ways to access an object property:</p>
+                  <p>You can use .property or ["property"].</p>
+                  <dl>
+                    <dt>var person = {</dt>
+                      <dd>firstName:"John",</dd>
+                      <dd>lastName:"Doe",</dd>
+                      <dd>age:50,</dd>
+                      <dd>eyeColor:"blue"</dd>
+                    <dt>};</dt>
+                  </dl>
+                  <h3>JavaScript for...in Loop</h3>
+                  <p>The JavaScript for...in statement loops through the properties of an object.</p>
+                  <p>var person = {fname:"John", lname:"Doe", age:25};</p>
+                      <dl>
+                        <dt>for (x in person) {</dt>
+                         <dd> txt += person[x];</dd>
+                         <dd> }</dd>
+                      </dl>
+                      <h3>Property Attributes</h3>
+                        <p>All properties have a name. In addition they also have a value.
+
+                        The value is one of the property's attributes.
+
+                        Other attributes are: enumerable, configurable, and writable.
+
+                        These attributes define how the property can be accessed (is it readable?, is it writable?)
+
+                        In JavaScript, all attributes can be read, but only the value attribute can be changed (and only if the property is writable).
+
+                        ( ECMAScript 5 has methods for both getting and setting all property attributes)</p>
+           </div>
+
+
           <div class="paragraph">
           </div>
           <div class="paragraph">
