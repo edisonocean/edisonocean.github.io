@@ -5,7 +5,7 @@ body{
 
 
 .background{
-background:blue;
+background:grey;
 margin: auto;
 height: 1000px;
 
@@ -13,7 +13,7 @@ height: 1000px;
 
 .date {
   position: absolute;
-  background-color: orange;
+  background-color: grey;
   right:100px;
     width: 200px;
     height: 40px;
@@ -28,7 +28,7 @@ color: white;
 .picture {
   position: relative;
   top: 75px;
-  background-color: green;
+  background-color: grey;
     width: 500px;
     height:600px;
     border: 5px solid black;
@@ -57,7 +57,7 @@ color: white;
    position: absolute;
   top: 35px;
   left: 860px;
-  background-color: blue;
+  background-color: grey;
     width: 100px;
     height: 50px;
     border: 5px solid black;
@@ -75,7 +75,7 @@ color: white;
   position: absolute;
   top: 1000px;
 left:auto;
-  background-color: orange;
+  background-color: white;
     width: 1420px;
     height: 100px;
     border: 5px solid black;
@@ -87,7 +87,7 @@ left:auto;
   position: absolute;
   top: 0px;
   left:0px;
-  background-color: blue;
+  background-color: grey;
     width: 200px;
     height: 50px;
     border: 5px solid black;
@@ -102,7 +102,7 @@ left:auto;
   position: absolute;
   top: 0px;
   left: 380px;
-  background-color: blue;
+  background-color: grey;
     width: 200px;
     height: 50px;
     border: 5px solid black;
@@ -117,7 +117,7 @@ left:auto;
   position: absolute;
   top: 0px;
   right: 380px;
-  background-color: blue;
+  background-color: grey;
     width: 200px;
     height: 50px;
     border: 5px solid black;
@@ -132,7 +132,7 @@ left:auto;
   position: absolute;
   top: 0px;
   right: 0px;
-  background-color: blue;
+  background-color: grey;
     width: 200px;
     height: 50px;
     border: 5px solid black;

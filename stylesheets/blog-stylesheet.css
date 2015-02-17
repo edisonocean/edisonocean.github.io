@@ -6,7 +6,7 @@ body {
 
 
 .background{
-background:blue;
+background:grey;
 margin: auto;
 height: 2200px;
 
@@ -19,7 +19,7 @@ height: 2200px;
   text-align: center;
   font-size: 50px;
   font-family: "Times New Roman", Georgia, Serif;
-  background: orange;
+  background: white;
   box-shadow: 10px 10px 5px black;
 }
 
