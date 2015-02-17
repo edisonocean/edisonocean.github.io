@@ -43,11 +43,11 @@ font-size: 20px;
 font-family: "Times New Roman", Georgia, Serif;
 }
 a:visited {
-    color: #00FF00;
+    color: white;
 }
 a:link {
     color: black;
 }
 a:hover {
-    color: grey;
+    color: black;
 }
