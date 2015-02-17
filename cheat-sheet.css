@@ -1,6 +1,6 @@
 
 .background{
-background:white;
+background:black;
 margin: auto;
 height: auto;
 }
@@ -16,7 +16,7 @@ height: auto;
     text-align: center;
 font-size: 18px;
 font-family: "Times New Roman", Georgia, Serif;
-color: white;
+color: black;
 
 }
 
@@ -31,7 +31,7 @@ color: white;
     text-align: center;
 font-size: 25px;
 font-family: "Times New Roman", Georgia, Serif;
-color: white;
+color: black;
 }
 
 .img{

@@ -6,7 +6,7 @@ position: relative;
   top: 0px;
 left:auto;
 right: auto;
-  background-color: white;
+  background-color: black;
     width: 100%;
     height: 100px;
     border: 5px solid black;
@@ -15,7 +15,7 @@ right: auto;
     font-size: 60px;
     font-weight: bolder;
     font-family: "Times New Roman", Georgia, Serif;
-    color: white;
+    color: black;
 }
 .opening{
   position: absolute;
@@ -23,7 +23,7 @@ right: auto;
   font-family: "Times New Roman", Georgia, Serif;
   font-size: 30px;
   font-weight: bold;
-color: white;
+color: black;
 
 }
 .introduction {
@@ -32,7 +32,7 @@ color: white;
   font-family: "Times New Roman", Georgia, Serif;
   font-size: 20px;
   font-weight: bold;
-color: white;
+color: black;
 }
 .home{
   position: absolute;
@@ -40,14 +40,14 @@ color: white;
   font-family: "Times New Roman", Georgia, Serif;
   font-size: 20px;
   font-weight: bold;
-color: white;
+color: black;
 }
 a:visited {
     color: #00FF00;
 }
 a:link {
-    color: white;
+    color: black;
 }
 a:hover {
-    color: orange;
+    color: grey;
 }

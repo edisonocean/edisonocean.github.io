@@ -21,7 +21,7 @@ left: 40px;
   text-align: center;
   font-size: 50px;
   font-family: "Times New Roman", Georgia, Serif;
-  background: white;
+  background: black;
   box-shadow: 10px 10px 5px black;
 }
 
@@ -38,7 +38,7 @@ left: 40px;
 
 
 #post   {
-  color: white;
+  color: black;
 font-size: 20px;
 font-family: "Times New Roman", Georgia, Serif;
 }
@@ -46,8 +46,8 @@ a:visited {
     color: #00FF00;
 }
 a:link {
-    color: white;
+    color: black;
 }
 a:hover {
-    color: orange;
+    color: grey;
 }

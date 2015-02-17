@@ -22,7 +22,7 @@ height: 1000px;
     text-align: center;
 font-size: 25px;
 font-family: "Times New Roman", Georgia, Serif;
-color: white;
+color: black;
     box-shadow: 10px 10px 5px black;
 }
 .picture {
@@ -65,7 +65,7 @@ color: white;
     text-align: center;
     font-size: 30px;
     font-family: "Times New Roman", Georgia, Serif;
-    color: white;
+    color: black;
     box-shadow: 10px 10px 5px black;
 
   }
@@ -75,7 +75,7 @@ color: white;
   position: absolute;
   top: 1000px;
 left:auto;
-  background-color: white;
+  background-color: black;
     width: 1420px;
     height: 100px;
     border: 5px solid black;
@@ -95,7 +95,7 @@ left:auto;
     text-align: center;
     font-size: 30px;
     font-family: "Times New Roman", Georgia, Serif;
-    color: white;
+    color: black;
     box-shadow: 10px 10px 5px black;
 }
 .about {
@@ -110,7 +110,7 @@ left:auto;
     text-align: center;
     font-size: 30px;
     font-family: "Times New Roman", Georgia, Serif;
-    color: white;
+    color: black;
     box-shadow: 10px 10px 5px black;
 }
 .contacts {
@@ -125,7 +125,7 @@ left:auto;
     text-align: center;
     font-size: 30px;
     font-family: "Times New Roman", Georgia, Serif;
-    color: white;
+    color: black;
     box-shadow: 10px 10px 5px black;
 }
 .cheat_sheet {
@@ -140,15 +140,15 @@ left:auto;
     text-align: center;
     font-size: 30px;
     font-family: "Times New Roman", Georgia, Serif;
-    color: white;
+    color: black;
     box-shadow: 10px 10px 5px black;
 }
 a:visited {
     color: #00FF00;
 }
 a:link {
-    color: white;
+    color: black;
 }
 a:hover {
-    color: orange;
+    color: grey;
 }
